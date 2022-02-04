@@ -1,0 +1,88 @@
+
+//
+// StyleDictionaryColor.h
+//
+
+// Do not edit directly
+// Generated on Fri, 04 Feb 2022 18:31:03 GMT
+
+
+#import <UIKit/UIKit.h>
+
+typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
+ColorLightForegroundNeutralPrimary,
+ColorLightForegroundNeutralSecondary,
+ColorLightForegroundNeutralTertiary,
+ColorLightForegroundNeutralQuaternary,
+ColorLightForegroundAccentPrimary,
+ColorLightForegroundErrorPrimary,
+ColorLightBackgroundNeutralPrimary,
+ColorLightBackgroundNeutralSecondary,
+ColorLightBackgroundNeutralTertiary,
+ColorLightBackgroundNeutralQuaternary,
+ColorLightBackgroundAccentPrimary,
+ColorLightBackgroundAccentSecondary,
+ColorLightBackgroundAccentTertiary,
+ColorLightBackgroundAccentQuaternary,
+ColorLightBackgroundErrorPrimary,
+ColorLightBorderNeutralPrimary,
+ColorLightBorderNeutralSecondary,
+ColorLightBorderAccentPrimary,
+ColorLightBorderErrorPrimary,
+ColorDarkForegroundNeutralPrimary,
+ColorDarkForegroundNeutralSecondary,
+ColorDarkForegroundNeutralTertiary,
+ColorDarkForegroundNeutralQuaternary,
+ColorDarkForegroundAccentPrimary,
+ColorDarkForegroundErrorPrimary,
+ColorDarkBackgroundNeutralPrimary,
+ColorDarkBackgroundNeutralSecondary,
+ColorDarkBackgroundNeutralTertiary,
+ColorDarkBackgroundNeutralQuaternary,
+ColorDarkBackgroundAccentPrimary,
+ColorDarkBackgroundAccentSecondary,
+ColorDarkBackgroundAccentTertiary,
+ColorDarkBackgroundAccentQuaternary,
+ColorDarkBackgroundErrorPrimary,
+ColorDarkBorderAccentPrimary,
+ColorDarkBorderErrorPrimary,
+ColorDarkBorderNeutralPrimary,
+ColorDarkBorderNeutralSecondary,
+ColorDarkBorderNeutralTertiary,
+ColorGlobalGrey0,
+ColorGlobalGrey2,
+ColorGlobalGrey5,
+ColorGlobalGrey10,
+ColorGlobalGrey18,
+ColorGlobalGrey30,
+ColorGlobalGrey50,
+ColorGlobalGrey58,
+ColorGlobalGrey75,
+ColorGlobalGrey86,
+ColorGlobalGrey93,
+ColorGlobalGrey96,
+ColorGlobalGrey100,
+ColorGlobalGreen4,
+ColorGlobalGreen7,
+ColorGlobalGreen14,
+ColorGlobalGreen21,
+ColorGlobalGreen27,
+ColorGlobalGreen37,
+ColorGlobalGreen44,
+ColorGlobalGreen58,
+ColorGlobalGreen69,
+ColorGlobalGreen75,
+ColorGlobalGreen81,
+ColorGlobalGreen86,
+ColorGlobalGreen90,
+ColorGlobalRed42,
+ColorGlobalRed46,
+ColorGlobalRed54,
+ColorGlobalRed62,
+ColorGlobalRed70
+};
+
+@interface StyleDictionaryColor : NSObject
++ (NSArray *)values;
++ (UIColor *)color:(StyleDictionaryColorName)color;
+@end
