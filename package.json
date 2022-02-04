@@ -1,10 +1,15 @@
 {
   "name": "design-system-wip",
-  "version": "1.0.0",
+  "version": "0.6.0",
   "description": "Base repo to transform json design tokens from the figma design token plugin via amazon style directory.",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
+  "dependencies": {
+    "style-dictionary": "^3"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3"
   },
   "scripts": {
     "start": "npm run transform-tokens",
@@ -15,16 +20,10 @@
     "type": "git",
     "url": "git+https://github.com/hello-nouf/design-system-wip.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Nouf Aljowaysir",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hello-nouf/design-system-wip/issues"
   },
-  "homepage": "https://github.com/hello-nouf/design-system-wip#readme",
-  "dependencies": {
-    "@types/jest": "^27.4.0",
-    "jest": "^27.4.7",
-    "style-dictionary": "^3.1.1",
-    "ts-jest": "^27.1.3"
-  }
+  "homepage": "https://github.com/hello-nouf/design-system-wip#readme"
 }
